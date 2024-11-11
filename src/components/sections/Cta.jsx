@@ -5,7 +5,7 @@ export default function Cta() {
   return (
     <div className="p-whitespacex md:my-whitespacey w-full md:grid md:grid-cols-2 relative">
       <section className="flex flex-col self-center items-center justify-center p-14 md:h-[90%] md:pe-[40%] bg-gradient-to-tr from-blue-100 to-indigo-100 rounded-t-xl md:rounded-xl">
-        <h1 className="text-3xl md:text-4xl font-semibold text-center">
+        <h1 className="text-3xl md:text-4xl font-semibold text-center md:text-start">
           Get connected in 72 seconds
         </h1>
 
@@ -36,11 +36,11 @@ export default function Cta() {
       />
 
       <section className="pt-14 md:ps-[20%] relative text-white bg-gradient-to-tr from-primary to-black rounded-xl -translate-y-4 md:translate-y-0">
-        <h3 className="text-4xl md:text-6xl font-semibold text-center">
+        <h3 className="text-4xl md:text-6xl font-semibold text-center md:text-end md:pe-20">
           One plan,
           <br /> one price.
         </h3>
-        <h2 className="text-6xl md:text-8xl font-semibold text-center my-7">
+        <h2 className="text-6xl md:text-8xl font-semibold text-center md:text-end  md:pe-20 my-7">
           $69
         </h2>
         <img src={phonePeek} className="w-[80%] mx-auto bottom-0" alt="" />

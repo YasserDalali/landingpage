@@ -17,7 +17,7 @@ function App() {
   });
 
   return (
-    <div className="font-minor">
+    <div className="font-minor overflow-hidden">
       <header>
         <NavBar />
       </header>
@@ -27,7 +27,7 @@ function App() {
 
         <article
           ref={benefitsRef}
-          className={`${
+          className={`md:px-44 ${
             benefitsInView ? "motion-preset-slide-up" : "opacity-0"
           }`}
         >
@@ -37,7 +37,7 @@ function App() {
 
         <article
           ref={ctaRef}
-          className={`${
+          className={`md:px-44 ${
             ctaInView ? "motion-preset-shrink" : "opacity-0"
           }`}
         >
