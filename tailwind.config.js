@@ -17,9 +17,9 @@ module.exports = {
         accent: "#888787",
       },
       spacing: {
-        whitespace: "2rem 4.5rem",
-        whitespacex: "2rem",
-        whitespacey: "4.5rem",
+        whitespace: '10rem 1.5rem',
+        whitespacex: '1.5rem',
+        whitespacey: '10rem',
       },
     },
     

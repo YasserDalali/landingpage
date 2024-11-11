@@ -58,7 +58,7 @@ export default function Hero() {
       </p>
 
 
-      <div className="min-h-fit w-full relative my-7 md:my-14 p-whitespace">
+      <div className="min-h-fit w-full relative my-7 md:my-14 p-whitespacex">
   <div className="w-full h-full  bg-indigo-200 rounded-full blur-3xl absolute scale-75 md:scale-50
   "></div>
   
@@ -84,7 +84,7 @@ export default function Hero() {
 
 
 
-      <div className="p-whitespace text-xl flex flex-col md:flex-row md:justify-evenly gap-2">
+      <div className="p-whitespacex text-xl flex flex-col md:flex-row md:justify-evenly gap-2">
         {perks.map((perk, index) => {
           return (
             <div
