@@ -4,6 +4,7 @@ import Hero from "./components/sections/Hero";
 import Benefits from "./components/sections/Benefits";
 import Cta from "./components/sections/Cta";
 import { useInView } from "react-intersection-observer";
+import Marquee from "./components/elements/Marquee";
 
 function App() {
   const { ref: benefitsRef, inView: benefitsInView } = useInView({
@@ -42,6 +43,11 @@ function App() {
           }`}
         >
           <Cta />
+        </article>
+
+
+        <article>
+            <Marquee />
         </article>
       </main>
     </div>
