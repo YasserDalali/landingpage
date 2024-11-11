@@ -17,7 +17,7 @@ export default function Benefits({ref}) {
       <Card
         title="Fast"
         desc="lorem impsum dolor sit amet consectetur adipisicing elit"
-        color="bg-indigo-100"
+        color="bg-violet-100"
       />
       <Card
         title="Easy"
@@ -27,7 +27,7 @@ export default function Benefits({ref}) {
       <Card
         title="Safe"
         desc="lorem impsum dolor sit amet consectetur adipisicing elit"
-        color="bg-pink-100"
+        color="bg-indigo-100"
       />
       </div>
     </div>

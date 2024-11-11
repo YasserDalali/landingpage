@@ -9,21 +9,21 @@ export default function Cta() {
           Get connected in 72 seconds
         </h1>
 
-        <p className="my-4 w-full bg-blue-50 p-3 rounded-lg">
+        <p className="my-4 w-full bg-blue-50 p-3 md:text-xl font-medium rounded-lg">
           <span className="font-semibold bg-white px-2 rounded-full mr-2">
             1
           </span>
           Sign up
         </p>
-        <p className="my-4 w-full bg-blue-50 p-3 rounded-lg">
+        <p className="my-4 w-full bg-blue-50 p-3 md:text-xl font-medium rounded-lg">
           <span className="font-semibold bg-white px-2 rounded-full mr-2">
-            1
+            2
           </span>
           Install
         </p>
-        <p className="my-4 w-full bg-blue-50 p-3 rounded-lg">
+        <p className="my-4 w-full bg-blue-50 p-3 md:text-xl font-medium rounded-lg">
           <span className="font-semibold bg-white px-2 rounded-full mr-2">
-            1
+            3
           </span>
           Use
         </p>
