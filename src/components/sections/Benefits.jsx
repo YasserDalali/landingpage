@@ -13,7 +13,7 @@ export default function Benefits({ref}) {
         A US number, <br></br> with peace of mind.
       </h2>
       <p className="text-center md:text-2xl mb-7 md:mb-14 text-accent ">Get started in 72 Seconds. <br /> Activate from anywhere worldwide.</p>
-<div className="grid grid-cols-1 md:grid-cols-3 md:gap-6">
+<div className="grid grid-cols-1 md:grid-cols-3 md:gap-10">
       <Card
         title="Fast"
         desc="lorem impsum dolor sit amet consectetur adipisicing elit"
