@@ -17,7 +17,7 @@ function App() {
   });
 
   return (
-    <>
+    <div className="font-minor">
       <header>
         <NavBar />
       </header>
@@ -28,7 +28,7 @@ function App() {
         <article
           ref={benefitsRef}
           className={`${
-            benefitsInView ? " transition-all motion-preset-slide-right" : "opacity-0"
+            benefitsInView ? "motion-preset-slide-up" : "opacity-0"
           }`}
         >
           <Benefits />
@@ -38,13 +38,13 @@ function App() {
         <article
           ref={ctaRef}
           className={`${
-            ctaInView ? " transition-all motion-preset-shrink" : "opacity-0"
+            ctaInView ? "motion-preset-shrink" : "opacity-0"
           }`}
         >
           <Cta />
         </article>
       </main>
-    </>
+    </div>
   );
 }
 

@@ -5,21 +5,26 @@ module.exports = {
     "./src/components/**/*.{html,js,jsx,ts,tsx}"  // Added line to target the components folder
   ],
     theme: {
+
     extend: {
+      fontFamily: {
+        major: "Satoshi, sans-serif",
+        minor: 'Poppins, sans-serif',
+     },
       colors: {
         primary: "#393737",
         secondary: "#1F2937",
         accent: "#888787",
       },
-      fontFamily: {
-        main: ["Inter", "sans-serif"],
-      },
       spacing: {
-        whitespace: "1.5rem 2.5rem",
-        whitespacex: "1.5rem",
-        whitespacey: "2.5rem",
+        whitespace: "2rem 4.5rem",
+        whitespacex: "2rem",
+        whitespacey: "4.5rem",
       },
     },
+    
+  
   },
+  
   plugins: [require('tailwindcss-motion')],
 };

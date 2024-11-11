@@ -8,12 +8,12 @@ export default function Benefits({ref}) {
 
 
   return (
-    <div ref={ref} className={`md:px-whitespacex py-whitespacey`}>
-      <h2 className="text-center text-4xl font-serif mb-7">
+    <div  className={`w-full md:px-whitespacex py-whitespacey`}>
+      <h2 className="text-center text-4xl md:text-7xl font-semibold mb-7 md:mb-14">
         A US number, <br></br> with peace of mind.
       </h2>
-      <p className="text-center text-accent mb-7">Get started in 72 Seconds. <br /> Activate from anywhere worldwide.</p>
-
+      <p className="text-center md:text-2xl mb-7 md:mb-14 text-accent ">Get started in 72 Seconds. <br /> Activate from anywhere worldwide.</p>
+<div className="flex flex-col md:flex-row md:items-center md:justify-between md:gap-7">
       <Card
         title="Fast"
         desc="lorem impsum dolor sit amet consectetur adipisicing elit"
@@ -29,6 +29,7 @@ export default function Benefits({ref}) {
         desc="lorem impsum dolor sit amet consectetur adipisicing elit"
         color="bg-pink-100"
       />
+      </div>
     </div>
   );
 }

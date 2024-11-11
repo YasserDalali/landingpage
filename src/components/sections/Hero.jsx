@@ -49,36 +49,47 @@ export default function Hero() {
 
   return (
     <div className="flex flex-col items-center p-whitespacex ">
-      <h1 className="text-center text-5xl font-serif mb-7 motion-preset-focus ">
+      <h1 className="text-center text-5xl md:text-8xl mb-7 md:mb-14 motion-preset-focus font-semibold ">
         One global plan. <br /> No hassle.
       </h1>
-      <p className="text-center text-accent mb-7 text-lg ">
+      <p className="text-center md:text-3xl mb-7 md:mb-14 text-accent">
         Enjoy unlimited global service for $69/mo.<br /> No roaming fees, or
         headaches.
       </p>
-      <div className="relative min-h-fit p-whitespace w-full">
-        <div className="w-full h-full bg-indigo-300 rounded-full blur-3xl absolute scale-75"></div>
-        <img
-  src={phoneimgA}
-  alt="Phone mockup"
-  className="w-[50%] -rotate-12 inline-block 
-  motion-preset-slide-right motion-delay-75"
-/>
 
 
-        <img
-          src={phoneimgB}
-          alt="Phone mockup"
-          className="w-[50%] rotate-12 inline-block motion-preset-slide-left "
-        />
-      </div>
+      <div className="min-h-fit w-full relative my-7 md:my-14 p-whitespace">
+  <div className="w-full h-full  bg-indigo-200 rounded-full blur-3xl absolute scale-75 md:scale-50
+  "></div>
+  
 
-      <div className="p-whitespace text-xl flex flex-col gap-2">
+    <img
+    src={phoneimgA}
+    alt="Phone mockup"
+    className="w-[50%] left-10 scale-75 md:scale-100 -rotate-12 md:left-[30%] top-0 absolute motion-preset-slide-right motion-delay-75 md:w-1/5"
+  />
+  <img
+    src={phoneimgB}
+    alt="Phone mockup"
+    className="w-[50%] right-10 scale-75 md:scale-100 rotate-12 absolute top-0 md:right-[30%] md:w-1/5 motion-preset-slide-left"
+  />
+
+
+    <img
+    src={phoneimgA}
+    className="w-[50%] opacity-0 relative md:w-1/5"
+  />
+</div>
+
+
+
+
+      <div className="p-whitespace text-xl flex flex-col md:flex-row md:justify-evenly gap-2">
         {perks.map((perk, index) => {
           return (
             <div
               key={index}
-              className={`font-serif flex items-center gap-2 motion-preset-slide-up ${
+              className={`font-medium flex items-center  gap-2 motion-preset-slide-up ${
                 index === 0
                   ? "motion-delay-200"
                   : index === 1
