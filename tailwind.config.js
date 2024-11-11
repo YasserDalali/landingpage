@@ -15,9 +15,9 @@ module.exports = {
         main: ["Inter", "sans-serif"],
       },
       spacing: {
+        whitespace: "1.5rem 2.5rem",
         whitespacex: "1.5rem",
         whitespacey: "2.5rem",
-        whitespace: "1.5rem 2.5rem",
       },
     },
   },

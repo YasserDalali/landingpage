@@ -1,14 +1,21 @@
 import "./index.css";
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
+import NavBar from "./components/sections/NavBar";
+import Hero from "./components/sections/Hero";
+import Benefits from "./components/sections/Benefits";
+import Cta from "./components/sections/Cta";
 
 function App() {
   return (
-    <div>
-      
-    <NavBar/>
-    <Hero />
-    </div>
+    <>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Hero />
+        <Benefits />
+        <Cta />
+      </main>
+    </>
   );
 }
 

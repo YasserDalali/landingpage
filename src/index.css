@@ -20,5 +20,8 @@
   .btn {
     @apply text-white bg-primary px-8 py-2 rounded-3xl;
   }
+  .shadow-gradient {
+    @apply shadow-lg bg-gradient-to-l from-primary to-accent;
+  }
   /* ... */
 }
