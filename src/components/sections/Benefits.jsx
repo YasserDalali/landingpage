@@ -1,9 +1,14 @@
+
 import React from "react";
 import Card from "../elements/Card";
 
-export default function Benefits() {
+
+export default function Benefits({ref}) {
+
+
+
   return (
-    <article className="md:px-whitespacex py-whitespacey">
+    <div ref={ref} className={`md:px-whitespacex py-whitespacey`}>
       <h2 className="text-center text-4xl font-serif mb-7">
         A US number, <br></br> with peace of mind.
       </h2>
@@ -24,6 +29,6 @@ export default function Benefits() {
         desc="lorem impsum dolor sit amet consectetur adipisicing elit"
         color="bg-pink-100"
       />
-    </article>
+    </div>
   );
 }

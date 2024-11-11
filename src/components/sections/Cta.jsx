@@ -2,7 +2,7 @@ import React from "react";
 import phonePeek from '../../images/667e7ff64aba18c8b49167a1_cta-img-mobile.png'
 export default function Cta() {
   return (
-    <article className="p-whitespace motion-preset-shrink ">
+    <div className="p-whitespace ">
       <section className="p-14 bg-gradient-to-tr from-blue-100 to-indigo-100 rounded-t-xl">
         <h1 className="text-4xl font-serif text-center">Get connected in 72 seconds</h1>
 
@@ -33,6 +33,6 @@ export default function Cta() {
         <img src={phonePeek} className=" w-[80%] mx-auto bottom-0" alt="" />
 
       </section>
-    </article>
+    </div>
   );
 }

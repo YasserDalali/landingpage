@@ -48,12 +48,12 @@ export default function Hero() {
   ];
 
   return (
-    <article className="flex flex-col items-center p-whitespacex ">
+    <div className="flex flex-col items-center p-whitespacex ">
       <h1 className="text-center text-5xl font-serif mb-7 motion-preset-focus ">
         One global plan. <br /> No hassle.
       </h1>
       <p className="text-center text-accent mb-7 text-lg ">
-        Enjoy unlimited global service for $69/mo. No roaming fees, or
+        Enjoy unlimited global service for $69/mo.<br /> No roaming fees, or
         headaches.
       </p>
       <div className="relative min-h-fit p-whitespace w-full">
@@ -92,6 +92,6 @@ export default function Hero() {
           );
         })}
       </div>
-    </article>
+    </div>
   );
 }
